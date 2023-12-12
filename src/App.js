@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <h1>Iroh from <i>Avatar: The Last Airbender</i></h1>
       </header>
-    </div>
+      <div className="columns">
+        <nav>Navigation</nav>
+        <main>
+          <img src="https://static.wikia.nocookie.net/nickelodeon/images/f/f2/Iroh1.png/"  alt="Portrait of Iroh smiling" className="image" />
+          <p>🍵 Iroh, a character from the animated television series <i>Avatar: The Last Airbender</i>, stands out as an exemplary mentor figure in fiction. His multifaceted personality, profound wisdom, and deep compassion distinguish him not only within the universe of the show but also across the broader landscape of fictional mentors.</p>
+
+        </main>
+        <aside>Sidebar</aside>
+      </div>
+      <footer>
+      </footer>
+    </>
   );
 }
-
-export default App;

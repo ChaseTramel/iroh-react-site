@@ -1,0 +1,69 @@
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+nav,
+aside,
+footer {
+    padding: 12px;
+    text-align: center;
+}
+
+header {
+    background-color: tomato;
+    height: 100px;
+}
+
+.columns {
+    display: flex;
+    flex-grow: 1;
+}
+
+nav {
+    background-color: coral;
+    flex-shrink: 0;
+    width: 200px;
+}
+
+main {
+    background-color: moccasin;
+    flex-grow: 1;
+    text-align: justify;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    background-color: sandybrown;
+    flex-shrink: 0;
+    width: 200px;
+}
+
+footer {
+    background-color: slategray;
+    height: 100px;
+}
+
+.h1 {
+    font-size: 24px;
+}
+
+img {
+    max-width: 200px;
+    align-self: center;
+}
